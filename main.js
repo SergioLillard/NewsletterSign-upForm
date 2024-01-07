@@ -19,7 +19,7 @@ function subscribe() {
     newEl.textContent = "Please enter a valid email address";
     newEl.classList.add("no-match");
     label.appendChild(newEl);
-    console.log("Ne radi");
+    
   } else {
     wrapper.innerHTML = "";
     wrapper.innerHTML = `<div id="message">
